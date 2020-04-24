@@ -1,0 +1,17 @@
+<layout-column id="RowLayout1">
+	<davinci-value-display id="ValueDisplay1" label="Minumim AppEngine 2.11.1 is required. Current version: ">
+		<crown-binding property="value" name="Engine/getVersion" path="result/data/engineVersion" auto-update="1000" update-on-resume></crown-binding>
+	</davinci-value-display>
+		<layout-row id="RowLayout2">
+		<appspace-file-upload-button id="FileUploadButton1" path="public/test.png" is-file title="Upload a file which is then stored under public/test.png">Upload</appspace-file-upload-button>
+		<appspace-file-download-button id="FileDownloadButton1" file-path="public/test.png" title="Download test.png file from public/test.png" downloaded-filename="test.png">Download </appspace-file-download-button>
+		
+	</layout-row>
+	
+	
+	
+	
+		
+	
+  
+</layout-column>
